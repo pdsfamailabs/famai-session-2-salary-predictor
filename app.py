@@ -60,7 +60,10 @@ Built as part of the FamAI-Labs practical AI learning series.
 st.subheader("🧠 How This Works")
 
 st.markdown("""
-It's all about ML and the historical processed data  
+1. Historical salary data is collected  
+2. Machine Learning learns patterns  
+3. User selects experience  
+4. Model predicts estimated salary  
 """)
 
 # -----------------------------
