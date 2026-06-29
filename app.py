@@ -26,13 +26,16 @@ st.sidebar.info(
     """
 )
 
+from google.colab import drive
+drive.mount('/content/drive')
+
 # -----------------------------
 # Load Dataset
 # -----------------------------
 import os  # import os module in python
-
-Filepath=os.path.join(base_path,'datasource/input')
 base_path='/content/drive/MyDrive/15d-ML-FamAILabs/'
+Filepath=os.path.join(base_path,'datasource/input')
+
 df_salary=pd.read_csv(f'{Filepath}/Salary_Data.csv')  
 
 # -----------------------------
