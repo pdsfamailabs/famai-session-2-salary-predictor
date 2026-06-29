@@ -29,13 +29,13 @@ st.sidebar.info(
 # -----------------------------
 # Load Dataset
 # -----------------------------
-df = pd.read_csv("data/Salary_Data.csv")
+df_salary=pd.read_csv(f'{Filepath}/Salary_Data.csv')  
 
 # -----------------------------
 # Prepare Data
 # -----------------------------
-X = df[['YearsExperience']]
-y = df['Salary']
+X = df_salary[['YearsExperience']]
+y = df_salary['Salary']
 
 # -----------------------------
 # Train Model
