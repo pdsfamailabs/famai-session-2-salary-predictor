@@ -46,7 +46,7 @@ model.fit(X, y)
 # -----------------------------
 # Main Title
 # -----------------------------
-st.title("💼 AI Salary Prediction App")
+st.title("💼 AI Salary Prediction App 💼")
 
 st.write("""
 This Machine Learning app predicts salary based on years of experience.
@@ -60,10 +60,7 @@ Built as part of the FamAI-Labs practical AI learning series.
 st.subheader("🧠 How This Works")
 
 st.markdown("""
-1. Historical salary data is collected  
-2. Machine Learning learns patterns  
-3. User selects experience  
-4. Model predicts estimated salary  
+It's all about ML and the historical processed data  
 """)
 
 # -----------------------------
